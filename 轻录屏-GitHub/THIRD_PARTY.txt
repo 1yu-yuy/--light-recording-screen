@@ -1,0 +1,11 @@
+FFmpeg is the third-party recording engine bundled alongside this application.
+This copy was taken from the user's existing local Desktop/ffmpeg.exe.
+Its build configuration and license notice are in ffmpeg-license.txt.
+Official project: https://ffmpeg.org/
+FFmpeg source and licensing information: https://ffmpeg.org/legal.html
+This application invokes FFmpeg as a separate executable using its command line.
+The app source is included in FloatRecorder.cs and can be rebuilt with build.ps1.
+
+Implementation references:
+https://ffmpeg.org/ffmpeg-devices.html#gdigrab
+https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowdisplayaffinity
